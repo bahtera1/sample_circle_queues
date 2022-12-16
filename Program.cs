@@ -65,6 +65,17 @@ namespace sample_circle_queues
             }
         }
 
+        public void display()
+        {
+            int FRONT_position = FRONT;
+            int REAR_position = REAR;
+            /* Checks if the queue is empty. */
+            if (FRONT == -1)
+            {
+                Console.WriteLine("Queue is empty\n");
+                return;
+            }
+            Console.WriteLine("\nElement is the queue are.............\n");
 
 
 
@@ -77,7 +88,9 @@ namespace sample_circle_queues
 
 
 
-    }
+
+
+        }
 
         static void Main(string[] args)
         {
