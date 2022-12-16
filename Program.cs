@@ -148,8 +148,12 @@ namespace sample_circle_queues
                             }
                             break;
                     }
-
-
                 }
+                catch (Exception)
+                {
+                    Console.WriteLine("Check for the values Entered. ");
+                }
+            }
+        }
     }
 }
