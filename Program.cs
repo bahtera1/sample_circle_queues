@@ -14,8 +14,9 @@ namespace sample_circle_queues
         public Queues()
         {
             //initizlizing the values of the variable REAR and FRONT to -1
-            //yo indicate that the queue is initially empty
-
+            //to indicate that the queue is initially empty
+            FRONT = -1;
+            REAR = -1;
         }
     }
 
