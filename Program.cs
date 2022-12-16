@@ -104,23 +104,11 @@ namespace sample_circle_queues
                 }
                 Console.WriteLine();
             }
-
-
-
-
-
-
-
-
-
-
-
-
-
         }
 
         static void Main(string[] args)
         {
+            Queues q = new Queues();
         }
     
 }
